@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LightningLabFiles.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Welcome to File Tests!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Button Text="Click Here To Show Loaded Data" Clicked="Button_clicked"/>
+        <Label Text="Nothing Yet" x:Name="LabelOutput"/>
+        <Button Text="Save data" Clicked="SaveData"/>
+        <Button Text="Load data" Clicked="LoadData"/>
+        <Entry Text="" x:Name="CurrentEntry" PlaceholderColor="Aqua"/>
+    </StackLayout>
+
+</ContentPage>
